@@ -5,8 +5,6 @@ permalink: /about/
 slug: about
 ---
 
-# Introduction
-
 I am a Ph.D. Geography student at the Boston University Department of Earth & 
 Environment, advised by Michael Dietze. Broadly, our lab is interested in 
 "Ecological Forecasting" -- trying to predict how ecosystems will respond to 
