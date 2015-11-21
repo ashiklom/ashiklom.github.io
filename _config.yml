@@ -6,13 +6,16 @@ baseurl: ""
 url: "http://ashiklom.github.io"
 
 author:
-  name     : 'Alexey Shiklomanov'
-  email    : ashiklom@bu.edu
-  url      : ashiklom.github.io
-  facebook : http://www.facebook.com/redrussianrage
-  #twitter  : 
+    name     : 'Alexey Shiklomanov'
+    email    : ashiklom@bu.edu
+    url      : ashiklom.github.io
+    #facebook : 
+    #twitter  : 
+    linkedin : http://www.linkedin.com/in/ashiklom
+    researchgate : http://www.researchgate.com/profile/Alexey_Shiklomanov
+    github : http://github.com/ashiklom
 
-github: https://github.com/ashiklom
+github: https://github.com/ashiklom/ashiklom.github.io
 #disqus_shortname: 
 #google_analytics: 
 
@@ -21,9 +24,12 @@ comments: true
 paginate_path: "/page/:num"
 
 sass:
-  style: :compressed
-  sass_dir: _sass
+    style: :compressed
+    sass_dir: _sass
 
 # Build settings
 markdown  : kramdown
+#markdown : redcarpet
+extensions: [fenced_code_blocks]
+# NOTE: kramdown uses different fenced code block syntax: ~~~ instead of ```
 permalink : /:title/

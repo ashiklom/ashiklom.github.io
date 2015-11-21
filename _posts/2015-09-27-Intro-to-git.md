@@ -115,9 +115,9 @@ directory. Type `ls` and confirm that the directory is empty.
 The command to initialize a Git repository is `git init`. Running it should 
 give the following output:
 
-```
+~~~
 Initialized empty Git repository in <directory>/.git
-```
+~~~
 
 This will set up the directory for version control by creating a hidden folder 
 containing relevant Git information and files. Run this command and then check 
@@ -137,7 +137,7 @@ text file called `file1.txt` in your Git test folder. Confirm that the file is
 there with the `ls` command. Once that's done, enter `git status`. You should 
 see the following:
 
-```
+~~~
 On branch master
 
 Initial commit
@@ -148,7 +148,7 @@ Untracked files:
 	file1.txt
 
 nothing added to commit but untracked files present (use "git add" to track)
-```
+~~~
 
 There are three different ways that Git perceives changes: working, staged, 
 and committed. To "save" -- or in Git's lingo, "commit" -- a change, you 
@@ -171,7 +171,7 @@ perform the following steps:
 
    Run `git status` again and you will see the following helpful information.
 
-   ```
+   ~~~
    On branch master
 
    Initial commit
@@ -181,7 +181,7 @@ perform the following steps:
 
            new file:   file1.txt
 
-   ```
+   ~~~
 
    The change we made -- the addition of `file1.txt` -- will be committed, or 
    permanently saved, the next time we run `git commit`. However, if we change 
@@ -201,11 +201,11 @@ perform the following steps:
    commit -m "Create file1.txt"` and you will see the following summary of the 
    change:
 
-```
+~~~
 [master (root-commit) 810e800] Create file1.txt
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 file1.txt
-```
+~~~
 
 *__NOTE__: At this point, Git may ask you for some information if it doesn't 
 have it already, such as your name and email.  This is used to store who 
@@ -217,13 +217,13 @@ One critical feature of Git is the ability to view your revision history. This
 can be done via the `git log` command, which returns the full list of past 
 commits for a repository:
 
-```
+~~~
 commit 810e800fb4f35d18f06fd385212b7d1830c0f099
 Author: <your name>
 Date:   <the current date and time>
 
     Create file1.txt
-```
+~~~
 
 That long string of letters and numbers after "commit" is the automatically 
 assigned unique identifier of the commit. When you refer to commits in Git 
@@ -239,16 +239,16 @@ Our first change created a new file. Now, let's edit it!
 First, for illustrative purposes, run `git status` and you should see the 
 following:
 
-```
+~~~
 On branch master
 nothing to commit, working directory clean
-```
+~~~
 
 This is good! It means all of our changes are committed to Git's history. Now, 
 fire up your text editor of choice, add some text to your `file1.txt`, and 
 save it. Run `git status` again and you will see the following message:
 
-```
+~~~
 On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -257,21 +257,21 @@ Changes not staged for commit:
 	modified:   file1.txt
 
 no changes added to commit (use "git add" and/or "git commit -a")
-```
+~~~
 
 Git recognizes that the version of `file1.txt` currently in the directory is 
 different from the one at the end of one it has saved, so it detects that a
 change has been made. To see exactly what has changed, you can use `git diff`, 
 which shows all of the unstaged changes made since the last commit:
 
-```
+~~~
 diff --git a/file1.txt b/file1.txt
 index e69de29..e965047 100644
 --- a/file1.txt
 +++ b/file1.txt
 @@ -0,0 +1 @@
 +Hello
-```
+~~~
 
 This may look a little bit crypic, but all it's saying is that the line 
 "Hello" has been added to the file `file1.txt`. Lines that have been added or 
@@ -284,7 +284,7 @@ to stage this change followed by `git commit -m "<message>"` to permanently
 save it. Now, running `git log` shows both the original change and the one we 
 just made:
 
-```
+~~~
 commit 33b2866809b16fb0e95f48d9c34f01f812ed97a5
 Author: Alexey Shiklomanov (LVM64) <alexey.shiklomanov@gmail.com>
 Date:   Mon Sep 14 00:06:08 2015 -0400
@@ -296,7 +296,7 @@ Author: Alexey Shiklomanov (LVM64) <alexey.shiklomanov@gmail.com>
 Date:   Sun Sep 13 23:27:54 2015 -0400
 
     Create file1.txt
-```
+~~~
 
 ## Going back in time
 
@@ -311,7 +311,7 @@ commit that exactly undoes one specific commit. First, for illustrative
 purposes, I'm going to add a few more things to my history.  Here is my new 
 `git log`:
 
-```
+~~~
 commit 1b16477bdecec11e9d97e9056a2eede7278709ef
 Author: Alexey Shiklomanov (LVM64) <alexey.shiklomanov@gmail.com>
 Date:   Fri Sep 18 19:00:38 2015 -0400
@@ -342,7 +342,7 @@ Date:   Sun Sep 13 23:27:54 2015 -0400
 
     Create file1.txt
 
-```
+~~~
 
 Now suppose my last edit to File 2 broke something and I wanted to undo that 
 change. All I have to do is enter `git revert 1b164`, where the string of 
@@ -413,7 +413,7 @@ example:
 
 Suppose I have the following `git log`:
 
-```
+~~~
 commit a84fda6c9db47d051205a25c583f49c4aa590849
 Author: Alexey Shiklomanov (LVM64) <alexey.shiklomanov@gmail.com>
 Date:   Mon Sep 21 23:08:23 2015 -0400
@@ -437,7 +437,7 @@ Author: Alexey Shiklomanov (LVM64) <alexey.shiklomanov@gmail.com>
 Date:   Sun Sep 13 23:27:54 2015 -0400
 
     Create file1.txt
-```
+~~~
 
 I want to add some new files to this, but I'm a little worried that they won't 
 play nicely with my old files. So, rather than risking breaking my current 
@@ -445,26 +445,26 @@ setup, I'm going to create a branch called "file-a" as follows: `git branch
 file-a`. If I enter `git branch` with no arguments after doing so, I see the 
 following:
 
-```
+~~~
   file-a
 * master
-```
+~~~
 
 This shows me that I have two branches -- `file-a` and `master` (the default 
 branch) -- and that I am currently on the branch `master`. To switch between 
 branches, I use the `git checkout <branch name>` command, so in this case, I 
 call `git branch file-a`, which outputs:
 
-```
+~~~
 Switched to branch 'file-a'
-```
+~~~
 
 If I look at my current working directory and history, they are exactly the 
 same, which makes sense because I haven't actually "grown" this branch 
 anywhere compared to "master". Let's add a file and stage and commit it on 
 this new branch:
 
-```
+~~~
 #> touch file.a
 #> git add file.a
 #> git commit -m "Create file.a"
@@ -472,15 +472,15 @@ this new branch:
 [file-a 95b8fa7] Create file.a
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 file.a
-```
+~~~
 
 This commit now appears in my Git log, and the file is obviously present in 
 the directory. 
 
-```
+~~~
 #> ls
 file.a  file1.txt  file2.txt
-```
+~~~
 
 Now it gets cool. 
 
@@ -490,16 +490,16 @@ change with `revert`, but I feel like I've made progress and I want to build
 on it first. All I have to do to go back to the `master` branch is enter `git 
 checkout master`:
 
-```
+~~~
 Switched to branch `master`
-```
+~~~
 
 Now, what does my working directory look like:
 
-```
+~~~
 #> ls
 file1.txt  file2.txt
-```
+~~~
 
 `file.a` isn't there! If you check the Git log, you won't find the commit 
 adding `file.a` in there either. But don't fear: `file.a` hasn't been deleted; 
@@ -507,10 +507,10 @@ rather, it's stored by Git (in a highly compressed and optimized format) and
 is associated with the branch `file-a`. To go back to it, simply `git checkout 
 file-a` again and voila!
 
-```
+~~~
 #> ls
 file.a  file1.txt  file2.txt
-```
+~~~
 
 You can keep adding as many commits as you want to the `file-a` branch, and 
 you can have as many branches as you'd like and freely move between them. So, 
@@ -528,13 +528,13 @@ our simple example, we first checkout the master branch (`git checkout
 master`) and then `git merge file-a` to merge the `file-a` branch into the 
 current `master` branch, giving the following output:
 
-```
+~~~
 Updating a84fda6..95b8fa7
 Fast-forward
  file.a | 0
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 file.a
-```
+~~~
 
 If you'd like, you can now delete the "file-a" branch since it is no longer 
 required and will clutter your workspace -- the command to do this is `git 

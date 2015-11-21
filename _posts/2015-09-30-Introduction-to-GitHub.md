@@ -54,9 +54,9 @@ by entering `git remote --help`.
 
 To add a remote, the syntax is:
 
-```
+~~~
 git remote add <name> <URL>
-```
+~~~
 
 The most common choice for the remote name is `origin`, but you can call it 
 anything you want. In fact, if you are pushing and pulling from multiple 
@@ -65,9 +65,9 @@ like "github", "johns-fork" (more on "forks" later), "private", and so on. For
 our purposes, let's call it "origin" and link it to the URL of your 
 newly-created repository. 
 
-```
+~~~
 git remote add origin https://github.com/<username>/test-repo
-```
+~~~
 
 Note that GitHub repository URLs are simply a combination of your username and 
 repository name, which makes them easy to remember.
@@ -77,13 +77,13 @@ uploading is `git push`, and in the future, that's all you'll have to do, but
 for the first push, we have to specify where we're pushing to. This is done by 
 adding the `--set-upstream` flag as follows:
 
-```
+~~~
 git push --set-upstream <remote name> <remote branch name>
-```
+~~~
 
 In our case:
 
-```
+~~~
 #> git push --set-upstream origin master
 Username for 'https://github.com': ashiklom
 Password for 'https://ashiklom@github.com':
@@ -94,7 +94,7 @@ Total 32 (delta 14), reused 0 (delta 0)
 To https://github.com/ashiklom/test-repo
  * [new branch]      master -> master
 Branch master set up to track remote branch master from origin.
-```
+~~~
 
 When you do this, you will be prompted for your GitHub username and password.  
 Since you don't necessarily have to push that often, this may not be a 
@@ -116,13 +116,13 @@ Note that you have to do this *for every new branch*, because the branch is
 part of the pushing location. If you want to configure a local branch to track 
 a remote branch without pushing, the command is:
 
-```
+~~~
 git branch --track <branch> <remote>/<remote branch>
-```
+~~~
 
 Now, let's add a new file and commit it.
 
-```
+~~~
 #> touch new-push
 #> git add new-push
 #> git commit -m "Added new push file"
@@ -137,7 +137,7 @@ On branch master
 Your branch is ahead of 'origin/master' by 1 commit.
   (use "git push" to publish your local commits)
 nothing to commit, working directory clean
-```
+~~~
 
 Note that some new information has been added to `git status`: It now tells 
 you that your branch is ahead of the remote "origin" and branch "master" 
@@ -151,7 +151,7 @@ was linked by `--set-upstream`. If you'd like, you can specify the remote and
 branch manually (e.g. `git push jeffs-remote devel-branch`), but in most 
 cases, it's safer and more convenient to push automatically.
 
-```
+~~~
 #> git push
 
 Username for 'https://github.com': ashiklom
@@ -162,7 +162,7 @@ Writing objects: 100% (2/2), 260 bytes | 0 bytes/s, done.
 Total 2 (delta 1), reused 0 (delta 0)
 To https://github.com/ashiklom/test-repo
    afed427..60d332a  master -> master
-```
+~~~
 
 # Downloading from an online repository
 
@@ -182,7 +182,7 @@ these edits, which is how you should do version control locally as well.
 Once you have a few commits, go back to your local repository in the command 
 line and run `git pull`. 
 
-```
+~~~
 #> git pull
 remote: Counting objects: 5, done.
 remote: Compressing objects: 100% (4/4), done.
@@ -197,7 +197,7 @@ Fast-forward
  2 files changed, 2 insertions(+)
  create mode 100644 online1
  create mode 100644 online2
-```
+~~~
 
 In my case, I had two new commits, each of which created a new file (`online1` 
 and `online2`). The `pull` command is actually a combination of two commands:
@@ -220,7 +220,7 @@ update your local branch with `git pull` before doing `git push`.
 The process for downloading Git repositories is VERY straightforward. The 
 command you use is `git clone <URL>`, for instance:
 
-```
+~~~
 #> git clone https://github.com/ashiklom/test-repo
 Cloning into 'test-repo'...
 remote: Counting objects: 34, done.
@@ -228,7 +228,7 @@ remote: Compressing objects: 100% (14/14), done.
 remote: Total 34 (delta 15), reused 33 (delta 14), pack-reused 0
 Unpacking objects: 100% (34/34), done.
 Checking connectivity... done.
-```
+~~~
 
 And that's it! Cloning will download the *entire* commit history through the 
 most recent commit, as well as all of the branches (to see all branches, use 
