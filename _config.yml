@@ -1,20 +1,20 @@
 # Site settings
-title: Zetsu
-email: zetsu@domain.com
-description: Um lindo tema feito para jekyll e com o <3
+title: Alexey Shiklomanov
+email: ashiklom@bu.edu
+description: Ph.D Geography student, BU Department of Earth & Environment
 baseurl: "/zetsu"
 url: "http://nandomoreira.me"
 
 author:
-  name     : 'Fernando Moreira'
-  email    : hi@nandomoreira.me
-  url      : http://nandomoreira.me
-  facebook : http://facebook.com/fernando.dev
-  twitter  : http://twitter.com/nandomoreirame
+  name     : 'Alexey Shiklomanov'
+  email    : ashiklom@bu.edu
+  url      : ashiklom.github.io
+  facebook : http://www.facebook.com/redrussianrage
+  #twitter  : 
 
-github: https://github.com/nandomoreirame/zetsu
-disqus_shortname: "fernandomoreira"
-google_analytics: UA-52446115-1
+github: https://github.com/ashiklom
+#disqus_shortname: 
+#google_analytics: 
 
 paginate: 2
 comments: true
