@@ -3,6 +3,7 @@ title: Introduction to GitHub
 author: Alexey Shiklomanov
 date: 2015-09-30
 layout: post
+comments: true
 ---
 
 In the previous tutorial, I went over basics of using Git to do version 
