@@ -17,7 +17,7 @@ author:
 
 github: https://github.com/ashiklom/ashiklom.github.io
 #disqus_shortname: 
-#google_analytics: 
+google_analytics: UA-70848532-1
 
 paginate: 2
 comments: true
