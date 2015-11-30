@@ -3,6 +3,7 @@ title: Introduction to Git
 author: Alexey Shiklomanov
 date: 2015-09-27
 layout: post
+comments: true
 ---
 
 # Why version control?
