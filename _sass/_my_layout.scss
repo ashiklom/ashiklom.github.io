@@ -1,0 +1,18 @@
+// Custom layouts for static sites
+
+// home body
+.main_body {
+    /*font-size: 1.8rem;*/
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 1));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 1));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+}
+
+.overview {
+    font-size: 1.2rem;
+    line-height: 140%;
+}
+

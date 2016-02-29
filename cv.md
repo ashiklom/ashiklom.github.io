@@ -5,9 +5,11 @@ permalink: /CV/
 ---
 
 ## Education
-Ph.D. Geography, *Boston University* (Exp. May 2019)
+Ph.D. Geography, Boston University (Exp. May 2019)
 
-Honors B.S. with Distinction, *Chemistry & Environmental Science* (May 2014)
+Honors B.S. with Distinction, *Chemistry & Environmental Science*, University 
+of Delaware (May 2014)
+
 * *Magna cum laude*
 * Geography minor
 * Honors thesis: *Stemflow acid neutralization capacity in a deciduous forest: 
@@ -30,21 +32,30 @@ Honors B.S. with Distinction, *Chemistry & Environmental Science* (May 2014)
 
 ## Publications
 
-* 2015\. Shiklomanov, A.N.; Dietze, M.C.; Viskari, T.; & Serbin, S.P. "Quantifying the influences 
+* 2015\. Shiklomanov, A.N.; Dietze, M.C.; Viskari, T.; Townsend, P.A.; & Serbin, S.P. "Quantifying the influences 
 of spectral resolution on uncertainty in leaf trait estimates through a Bayesian approach to 
-RTM inversion". **Remote Sensing of Environment** (In review).
+RTM inversion". **Remote Sensing of Environment** (Accepted, in revision).
 
 * 2015\. Levia, D.F.,  Shiklomanov, A.N., Van Stan, J.T., Sheick, C.E., Inamdar, S.P., Mitchell, 
 M.J., & McHale, P.J. "Calcium and aluminum cycling in a temperate broadleaved 
 deciduous forest of the eastern USA: relative impacts of tree species, canopy state, and 
 flux type." *Environmental Monitoring and Assessment* **187**(7):4675. 
-[Link]()
+[Link](http://link.springer.com/article/10.1007%2Fs10661-015-4675-3)
 
 * 2014\. Shiklomanov, A.N. & Levia, D.F. "Stemflow acid neutralization capacity in a broadleaved 
-deciduous forest: The role of edge effects." Environmental Pollution 193:45-53. [Link]()
+deciduous forest: The role of edge effects." Environmental Pollution 193:45-53. [Link](http://dx.doi.org/10.1016/j.envpol.2014.06.011)
 
 
 ## Conference & Workshop Presentations
+
+* INTERFACE Workshop on Frontiers in terrestrial climate feedbacks: 
+  Integrating models and experiments to explore climate feedbacks in a managed 
+  and warming world. Poster presentation: “Applications of spectral inversion 
+  to understanding vegetation functional trait relationships”. February 2016.
+
+* American Geophysical Union (AGU) Fall Meeting. Poster presentation: 
+  “Applications of spectral inversion to understanding vegetation functional 
+  trait relationships.” December 2015.
 
 * Keck Institute for Space Sciences (KISS) Workshop: Exploring New 
   Multi-Instrument Approaches to Observing Terrestrial Ecosystems and the 
