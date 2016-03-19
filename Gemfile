@@ -4,6 +4,7 @@ source 'http://rubygems.org'
 gem 'jekyll'
 gem 'github-pages'
 gem 'saas'
+gem 'jekyll-gist'
 
 #group :development do
   ##gem 'rake', '~> 10.4.2'

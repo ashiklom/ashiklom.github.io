@@ -50,7 +50,9 @@ Direct Formatting" so it doesn't trip up pandoc too much.
 
 Finally, once that's done, I run the following command:
 
+{% highlight bash %}
     pandoc note.docx -o note.md
+{% endhighlight %}
 
 Yep, it's that simple! Now my entire notebook is in a single long Markdown 
 file, so the challenge is to split it intelligently. On to step 2...
@@ -64,11 +66,13 @@ overview of the steps.
 In a nutshell, the script leverages the face that the heading for every 
 OneNote note looks almost exactly like this:
 
+{% highlight bash %}
     Note title
 
     Monday, January 1, 2016
 
     12:35 PM
+{% endhighlight %}
 
 The title is variable and I have timestamps elsewhere, but I never write the 
 date in exactly that format, so I can use that to identify individual notes. 
@@ -78,8 +82,10 @@ pieces.
 To identify the date, I use `grep` with a very long pattern (because I have 
 notes from every weekday and month).
 
+{% highlight bash %}
     IFS=$'\n'
     matches=($(grep -nP "^(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday), (January|February|March|April|May|June|July|August|September|October|November|December) \d{1,2}, \d{4}" note.md))
+{% endhighlight %}
 
 A few things to note:
 
@@ -117,8 +123,10 @@ order, so I can iteratively chop off the tail preserve the line numbers of
 each section. The cleanest way I found to do this is via a C-style loop over 
 the indices:
 
+{% highlight bash %}
     indices=( ${!matches[@]} )
     for ((i=${#indices[@]} - 1; i >=0; i--)); do
+{% endhighlight %}
 
 The first line uses bash object expansion syntax, signified by the `${...}`.  
 The `[@]` (or, synonymously, `[*]`) selects every element in `matches` (unlike 
@@ -135,12 +143,16 @@ identical to C and similar to Fortran, among others.
 
 Next, recall that each matched line looks like this:
 
+{% highlight bash %}
     4242:Saturday, February 30, 2015
+{% endhighlight %}
 
 We only want the line number (4242), so we can use more bash variable 
 expansion syntax to extract it:
 
+{% highlight bash %}
     linenum=${matches[i]%:*}
+{% endhighlight %}
 
 Breaking it down: `matches[i]` selects the ith element of `matches`. The `%` 
 indicates that we want to delete stuff from the end of the object, and the 
@@ -154,7 +166,9 @@ Next, I want to extract the note title and use it as the file name for my
 note. As I mentioned earlier, the note title is *always* 2 lines above the 
 note date:
 
+{% highlight bash %}
     linenum=${matches[i]%:*}
+{% endhighlight %}
 
 The title is whatever appears on that line. There are several commands that 
 can get a line from a file by the line number, but according to a 
@@ -162,7 +176,9 @@ can get a line from a file by the line number, but according to a
 comment](http://stackoverflow.com/questions/6022384/bash-tool-to-get-nth-line-from-a-file#comment34453410_6022431), 
 the fastest command is this:
 
+{% highlight bash %}
     title=$(tail -n+$titleline note.md | head -n1)
+{% endhighlight %}
 
 ...which takes the end ("tail") of `note.md` starting from line number (`-n`) 
 `$titleline` and, from that (`|`), takes the first line (`head -n1`).
@@ -176,6 +192,7 @@ I could be done there, but I'm actually a little more picky. Vimwiki diary entri
 
 Here's the resulting code:
 
+{% highlight bash %}
     if date -d$title; then
         title=$(date -d$title +%Y-%m-%d)
     else 
@@ -184,6 +201,7 @@ Here's the resulting code:
         title=$linedate'--'${title//\//_}
     fi
     outfile=$outdir/${title}.wiki
+{% endhighlight %}
 
 All bash commands return an integer code when they complete. Code 0 means the 
 command executed successfully, while other codes mean something went wrong.  
@@ -207,50 +225,14 @@ replace every instance of `x` with `y` in `var`; to only replace the first
 Finally, with everything in place, I use `tail` to grab the section of 
 `file.md` I need and paste it into a file with the appropriate title.
 
+{% highlight bash %}
     tail -n+$titleline file.md > $outfile
+{% endhighlight %}
 
 Lather, rinse, repeat for every matched date line in `file.md` and we're done! 
 
 The full bash script (with a few minor modifications for extensibility) is 
-reproduced below:
+reproduced below (via GitHub gist):
 
-    #!/bin/bash
+{% gist ashiklom/a9275d60ebb94580c4b0 md.to.wiki.sh %}
 
-    # Get arguments -- default to daily.format.md
-    infile=${1-'daily.format.md'}
-
-    outdir="output"
-    mkdir -p $outdir
-    cp -rf $infile $scratchfile
-
-    # Find all lines that start with a date, formatted EXACTLY this way
-    IFS=$'\n'
-    matches=($(grep -nP "^(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday), (January|February|March|April|May|June|July|August|September|October|November|December) \d{1,2}, \d{4}" $scratchfile))
-
-    # Loop over indices in reverse
-    indices=( ${!matches[@]} )
-    for ((i=${#indices[@]} - 1; i >=0; i--)); do
-
-        # Separate the line number and date from the full match string (% matches beginning, # matches end)
-        linenum=${matches[i]%:*}
-
-        # Line of note title (2 lines above date)
-        titleline=$(($linenum-2))
-        title=$(tail -n+$titleline $scratchfile | head -n1)
-        if date -d$title; then
-            title=$(date -d+$title +%Y-%m-%d)
-        else 
-            linedate=${matches[i]#*:}
-            linedate=$(date -d+$linedate +%Y-%m-%d)
-            title=$linedate'--'${title//\//_}
-        fi
-        outfile=$outdir/${title}.wiki
-
-        ## Get output file string
-        tail -n+$titleline $infile > $outfile
-
-    done
-
-    rm $scratchfile
-
-    exit 0

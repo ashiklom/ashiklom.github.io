@@ -32,4 +32,8 @@ markdown  : kramdown
 #markdown : redcarpet
 extensions: [fenced_code_blocks]
 # NOTE: kramdown uses different fenced code block syntax: ~~~ instead of ```
+
+gems:
+    - jekyll-gist
+
 permalink : /:title/
