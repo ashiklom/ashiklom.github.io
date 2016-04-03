@@ -34,7 +34,7 @@ of Delaware (May 2014)
 
 * 2015\. Shiklomanov, A.N.; Dietze, M.C.; Viskari, T.; Townsend, P.A.; & Serbin, S.P. "Quantifying the influences 
 of spectral resolution on uncertainty in leaf trait estimates through a Bayesian approach to 
-RTM inversion". **Remote Sensing of Environment** (Accepted, in revision).
+RTM inversion". *Remote Sensing of Environment* (Accepted, in revision).
 
 * 2015\. Levia, D.F.,  Shiklomanov, A.N., Van Stan, J.T., Sheick, C.E., Inamdar, S.P., Mitchell, 
 M.J., & McHale, P.J. "Calcium and aluminum cycling in a temperate broadleaved 
