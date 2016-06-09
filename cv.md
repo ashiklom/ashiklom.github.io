@@ -86,6 +86,7 @@ deciduous forest: The role of edge effects." Environmental Pollution 193:45-53. 
 
 ## Awards and Recognition
 
+* Honorable Mention, National Science Foundation Graduate Research Fellowship Program (GRFP), (Spring 2016)
 * Honorable Mention, National Science Foundation Graduate Research Fellowship 
   Program (GRFP), (Spring 2015)
 * Outstanding Senior in Environmental Science, University of Delaware (Spring 
