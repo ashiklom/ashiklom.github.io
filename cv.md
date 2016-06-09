@@ -32,9 +32,9 @@ of Delaware (May 2014)
 
 ## Publications
 
-* 2015\. Shiklomanov, A.N.; Dietze, M.C.; Viskari, T.; Townsend, P.A.; & Serbin, S.P. "Quantifying the influences 
+* 2016\. Shiklomanov, A.N.; Dietze, M.C.; Viskari, T.; Townsend, P.A.; & Serbin, S.P. "Quantifying the influences 
 of spectral resolution on uncertainty in leaf trait estimates through a Bayesian approach to 
-RTM inversion". *Remote Sensing of Environment* (Accepted, in revision).
+RTM inversion". *Remote Sensing of Environment* **183**:226-238. [Link](http://www.sciencedirect.com/science/article/pii/S0034425716302243).
 
 * 2015\. Levia, D.F.,  Shiklomanov, A.N., Van Stan, J.T., Sheick, C.E., Inamdar, S.P., Mitchell, 
 M.J., & McHale, P.J. "Calcium and aluminum cycling in a temperate broadleaved 
@@ -74,12 +74,14 @@ deciduous forest: The role of edge effects." Environmental Pollution 193:45-53. 
 
 ## Research Grants
 
-* Spring 2015: Boston University Biogeoscience Student Award, $500
-* Winter 2014: Senior Thesis Winter Session Scholars Award, $600
+* Spring 2016: NASA Earth & Space Science Fellowship: "Tracking successional
+  dynamics of foliar traits using remote sensing", \$30,000
+* Spring 2015: Boston University Biogeoscience Student Award, \$500
+* Winter 2014: Senior Thesis Winter Session Scholars Award, \$600
 * Summer 2013: Delaware Water Resources Center (DWRC) summer research grant: 
-  "Acid neutralization in a deciduous forest: The role of edge effects", $3500
+  "Acid neutralization in a deciduous forest: The role of edge effects", \$3500
 * Spring 2013: University of Delaware undergraduate research program supply 
-  and expense grant, $700
+  and expense grant, \$700
 
 
 ## Awards and Recognition
