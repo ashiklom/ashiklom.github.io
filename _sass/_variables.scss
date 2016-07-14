@@ -30,6 +30,7 @@ $link-hover-color: lighten($link-color, 5%) !default;
 $gray-color:       #828282 !default;
 $gray-color-light: lighten($gray-color, 40%) !default;
 $gray-color-dark:  darken($gray-color, 25%) !default;
+$gray-color-offwhite: lighten($gray-color, 48%) !default;
 
 // Width of the content area
 $content-width:    800px !default;
