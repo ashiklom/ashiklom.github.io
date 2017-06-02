@@ -25,23 +25,52 @@ Honors B.S. with Distinction, *Chemistry & Environmental Science*, University of
 
 ## Publications
 
-* 2016\. Shiklomanov, A.N.; Dietze, M.C.; Viskari, T.; Townsend, P.A.; & Serbin, S.P. 
+### Published
+
+* 2016\. **Shiklomanov, A.N.**; Dietze, M.C.; Viskari, T.; Townsend, P.A.; & Serbin, S.P. 
 "Quantifying the influences of spectral resolution on uncertainty in leaf trait estimates through a Bayesian approach to RTM inversion". 
 *Remote Sensing of Environment* **183**:226-238. 
 [Link](http://www.sciencedirect.com/science/article/pii/S0034425716302243).
 
-* 2015\. Levia, D.F.,  Shiklomanov, A.N., Van Stan, J.T., Sheick, C.E., Inamdar, S.P., Mitchell, M.J., & McHale, P.J. 
+* 2015\. Levia, D.F.,  **Shiklomanov, A.N.**, Van Stan, J.T., Sheick, C.E., Inamdar, S.P., Mitchell, M.J., & McHale, P.J. 
 "Calcium and aluminum cycling in a temperate broadleaved deciduous forest of the eastern USA: relative impacts of tree species, canopy state, and flux type." 
 *Environmental Monitoring and Assessment* **187**(7):4675. 
 [Link](http://link.springer.com/article/10.1007%2Fs10661-015-4675-3)
 
-* 2014\. Shiklomanov, A.N. & Levia, D.F. 
+* 2014\. **Shiklomanov, A.N.** & Levia, D.F. 
 "Stemflow acid neutralization capacity in a broadleaved deciduous forest: The role of edge effects." 
 Environmental Pollution 193:45-53. 
 [Link](http://dx.doi.org/10.1016/j.envpol.2014.06.011)
 
+### In review or revision
+
+* **Shiklomanov, A.N.**; Cowdery, E.M.; Bahn, M.; Burrascano, S.; Byun, C.; Craine, J.; Gonzalez-Melo, A.; Gutierrez, A.; Jansen, S.; Kraft, N.; Kramer, K.; Minden, V.; Niinemets, Ü.; Onoda, Y.; Sosinski, E.; Soudzilovskaia, N.; Dietze, M.C. Scaling and breaking the leaf economic spectrum: Leaf trait relationships diverge across plant functional types. *New Phytologist*. In revision.
+
+### In preparation
+
+* Viskari, T.; **Shiklomanov, A.N.**; Dietze, M.C.; Serbin, S.P. The influence of caopy radiation parameter uncertainty on model projections of carbon and energy cycling. *Journal of Advances in Modeling Earth Systems*. In prep.
+
+* **Shiklomanov, A.N.**; Smallman, L.; Bradley, B.; Dahlin, K.; Fox, A.; Gough, C.; Hoffman, F.M.; Middleton, E.; Serbin, S.; Smith, W. The role of remote sensing in global change experiments (*Working title*). *Frontiers in Ecology & Evolution*. In prep.
+
+* **Shiklomanov, A.N.**; Di Vittorio, A.; Serbin, S.; Dietze, M.C. Leaf optical properties shed light on foliar trait variability at individual to global scales (*Working title*). In prep.
 
 ## Conference & Workshop Presentations
+
+* NASA Biodiversity & Ecological Forecasting Team Meeting
+Poster presentation: "Leaf optical properties shed light on foliar trait variability at individual to global scales".
+May 2017.
+
+* American Association of Geographers (AAG) Fall Meeting.
+Oral presentation: "Leaf optical properties shed light on foliar trait variability at individual to global scales".
+April 2017.
+
+* American Geophysical Union (AGU) Fall Meeting.
+Invited oral presentation: "Leaf optical properties shed light on foliar trait variability at individual to global scales".
+December 2016.
+
+* American Geophysical Union (AGU) Fall Meeting.
+Oral presentation: "Scaling and breaking the leaf economic spectrum: Leaf trait relationships diverge across plant functional types".
+December 2016.
 
 * INTERFACE Workshop on Frontiers in terrestrial climate feedbacks: Integrating models and experiments to explore climate feedbacks in a managed and warming world. 
 Poster presentation: “Applications of spectral inversion to understanding vegetation functional trait relationships”. 
@@ -63,6 +92,21 @@ April 2015.
 Poster presentation: "Characterization of uncertainties in leaf traits through a Bayesian inversion of the PROSPECT model." 
 January 2015. 
 
+
+## Workshop and working group participation
+
+* USGS Biodiversity and Climate Modeling Workshop Series.
+June 2017.
+
+* Oak Ridge National Lab Data Distributed Active Archive Center (DAAC) User Working Group (UWG) meeting. 
+May 2017.
+
+
+## Teaching experience
+
+* Certified [Software Carpentry](software-carpentry.org) instructor. Taught the following workshops:
+    - Python, Unix Shell, Git and SQL -- University of West Virginia (May 2017)
+    - Python, Unix Shell, and Git -- University of California-San Francisco Medical School (December 2016)
 
 ## Research Grants
 
