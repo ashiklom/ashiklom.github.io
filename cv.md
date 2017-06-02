@@ -104,7 +104,7 @@ May 2017.
 
 ## Teaching experience
 
-* Certified [Software Carpentry](https://software-carpentry.org) instructor. Taught the following workshops:
+* Certified [Software Carpentry](www.software-carpentry.org) instructor. Taught the following workshops:
     - Python, Unix Shell, Git and SQL -- University of West Virginia (May 2017)
     - Python, Unix Shell, and Git -- University of California-San Francisco Medical School (December 2016)
 
