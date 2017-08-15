@@ -42,9 +42,24 @@ Honors B.S. with Distinction, *Chemistry & Environmental Science*, University of
 Environmental Pollution 193:45-53. 
 [Link](http://dx.doi.org/10.1016/j.envpol.2014.06.011)
 
+### In press
+
+* Kaverin, D.A.; Melnichuk, E.B.; Shiklomanov, N.I.; Kakunov, N.B.; Pastukhov, A.V.; **Shiklomanov, A.N.**
+Long-term changes in the ground thermal regime of an artificially-drained thaw lake basin: A case study in the Russian European North.
+*Permafrost and Periglacial Processes*.
+In press.
+
 ### In review or revision
 
-* **Shiklomanov, A.N.**; Cowdery, E.M.; Bahn, M.; Burrascano, S.; Byun, C.; Craine, J.; Gonzalez-Melo, A.; Gutierrez, A.; Jansen, S.; Kraft, N.; Kramer, K.; Minden, V.; Niinemets, Ü.; Onoda, Y.; Sosinski, E.; Soudzilovskaia, N.; Dietze, M.C. Scaling and breaking the leaf economic spectrum: Leaf trait relationships diverge across plant functional types. *New Phytologist*. In revision.
+* **Shiklomanov, A.N.**; Cowdery, E.M.; Bahn, M.; Burrascano, S.; Byun, C.; Craine, J.; Gonzalez-Melo, A.; Gutierrez, A.; Jansen, S.; Kraft, N.; Kramer, K.; Minden, V.; Niinemets, Ü.; Onoda, Y.; Sosinski, E.; Soudzilovskaia, N.; Dietze, M.C. 
+Scaling and breaking the leaf economic spectrum: Leaf trait relationships diverge across plant functional types. 
+*New Phytologist*.
+In revision.
+
+* Weiskopf, S.R.; McCarthy, J.L.; McCarthy, K.P.; **Shiklomanov, A.N.**; Wibisono, H.T.; Pusparini, W. 
+The conservation value of forest fragments in the increasingly agrarian landscape of Sumatra.
+*Journal of Tropical Ecology*.
+In review.
 
 ### In preparation
 
@@ -52,9 +67,25 @@ Environmental Pollution 193:45-53.
 
 * **Shiklomanov, A.N.**; Smallman, L.; Bradley, B.; Dahlin, K.; Fox, A.; Gough, C.; Hoffman, F.M.; Middleton, E.; Serbin, S.; Smith, W. The role of remote sensing in global change experiments (*Working title*). *Frontiers in Ecology & Evolution*. In prep.
 
-* **Shiklomanov, A.N.**; Di Vittorio, A.; Serbin, S.; Dietze, M.C. Leaf optical properties shed light on foliar trait variability at individual to global scales (*Working title*). In prep.
+* **Shiklomanov, A.N.**; Serbin, S.; Dietze, M.C. Leaf optical properties shed light on foliar trait variability at individual to global scales (*Working title*). In prep.
 
 ## Conference & Workshop Presentations
+
+### Invited
+
+* Ecological Society of America (ESA) Annual Meeting.
+Invited ignite presentation: "Applications of radiative transfer modeling to vegetation remote sensing".
+August 2017
+
+* American Geophysical Union (AGU) Fall Meeting.
+Invited oral presentation: "Leaf optical properties shed light on foliar trait variability at individual to global scales".
+December 2016.
+
+### Contributed
+
+* 39th New Phytologist Symposium -- Trait covariation: Structural and functional relationships in plant ecology.
+Poster presentation: "Leaf optical properties shed light on foliar trait variability at individual to global scales".
+June 2017.
 
 * NASA Biodiversity & Ecological Forecasting Team Meeting
 Poster presentation: "Leaf optical properties shed light on foliar trait variability at individual to global scales".
@@ -65,24 +96,12 @@ Oral presentation: "Leaf optical properties shed light on foliar trait variabili
 April 2017.
 
 * American Geophysical Union (AGU) Fall Meeting.
-Invited oral presentation: "Leaf optical properties shed light on foliar trait variability at individual to global scales".
-December 2016.
-
-* American Geophysical Union (AGU) Fall Meeting.
 Oral presentation: "Scaling and breaking the leaf economic spectrum: Leaf trait relationships diverge across plant functional types".
 December 2016.
-
-* INTERFACE Workshop on Frontiers in terrestrial climate feedbacks: Integrating models and experiments to explore climate feedbacks in a managed and warming world. 
-Poster presentation: “Applications of spectral inversion to understanding vegetation functional trait relationships”. 
-February 2016.
 
 * American Geophysical Union (AGU) Fall Meeting. 
 Poster presentation: “Applications of spectral inversion to understanding vegetation functional trait relationships.” 
 December 2015.
-
-* Keck Institute for Space Sciences (KISS) Workshop: Exploring New Multi-Instrument Approaches to Observing Terrestrial Ecosystems and the Carbon Cycle from Space.  
-Poster presentation: "Quantifying the influences of spectral resolution on uncertainty in leaf trait estimates through a Bayesian approach to RTM inversion." 
-October 2015.
 
 * NASA Carbon Cycle & Ecosystems Conference. 
 Poster presentation: "Chloroplasts to canopies: Analysis of leaf spectral trait variability across spatial scales." 
@@ -101,12 +120,19 @@ June 2017.
 * Oak Ridge National Lab Data Distributed Active Archive Center (DAAC) User Working Group (UWG) meeting. 
 May 2017.
 
+* INTERFACE Workshop on Frontiers in terrestrial climate feedbacks: Integrating models and experiments to explore climate feedbacks in a managed and warming world. 
+February 2016.
+
+* Keck Institute for Space Sciences (KISS) Workshop: Exploring New Multi-Instrument Approaches to Observing Terrestrial Ecosystems and the Carbon Cycle from Space.  
+October 2015.
+
 
 ## Teaching experience
 
 * Certified [Software Carpentry](www.software-carpentry.org) instructor. Taught the following workshops:
-    - Python, Unix Shell, Git and SQL -- University of West Virginia (May 2017)
-    - Python, Unix Shell, and Git -- University of California-San Francisco Medical School (December 2016)
+    - R, Unix Shell, Git -- Federal Reserve Board (August 2017)
+    - Python, Unix Shell, Git, SQL -- University of West Virginia (May 2017)
+    - Python, Unix Shell, Git -- University of California-San Francisco Medical School (December 2016)
 
 ## Research Grants
 
