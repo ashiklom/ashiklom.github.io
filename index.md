@@ -4,7 +4,7 @@ title: Home
 slug: home
 ---
 
-<img style="float: right;" src="images/my_photo.jpg">
+<img style="float: left; width: 300px; margin: 0px 20px 20px" src="images/my_photo.jpg">
 
 <div class="overview">
 Ph.D. student<br>

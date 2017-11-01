@@ -3,3 +3,5 @@ _site
 Gemfile.lock
 images/*.big.jpg
 images/*-bak.jpg
+.bundle
+vendor
