@@ -5,7 +5,7 @@ permalink: /CV/
 ---
 
 ## Education
-Ph.D. Geography, Boston University (Exp. May 2019)
+Ph.D. Geography, Boston University (Exp. June 2018)
 
 Honors B.S. with Distinction, *Chemistry & Environmental Science*, University of Delaware (May 2014)
 
@@ -27,6 +27,11 @@ Honors B.S. with Distinction, *Chemistry & Environmental Science*, University of
 
 ### Published
 
+* 2017\. Kaverin, D.A.; Melnichuk, E.B.; Shiklomanov, N.I.; Kakunov, N.B.; Pastukhov, A.V.; **Shiklomanov, A.N.**
+Long-term changes in the ground thermal regime of an artificially-drained thaw lake basin: A case study in the Russian European North.
+*Permafrost and Periglacial Processes*. **29**(1):49-59.
+[Link](http://onlinelibrary.wiley.com/doi/10.1002/ppp.1963/abstract)
+
 * 2016\. **Shiklomanov, A.N.**; Dietze, M.C.; Viskari, T.; Townsend, P.A.; & Serbin, S.P. 
 "Quantifying the influences of spectral resolution on uncertainty in leaf trait estimates through a Bayesian approach to RTM inversion". 
 *Remote Sensing of Environment* **183**:226-238. 
@@ -42,32 +47,25 @@ Honors B.S. with Distinction, *Chemistry & Environmental Science*, University of
 Environmental Pollution 193:45-53. 
 [Link](http://dx.doi.org/10.1016/j.envpol.2014.06.011)
 
-### In press
+### In review
 
-* Kaverin, D.A.; Melnichuk, E.B.; Shiklomanov, N.I.; Kakunov, N.B.; Pastukhov, A.V.; **Shiklomanov, A.N.**
-Long-term changes in the ground thermal regime of an artificially-drained thaw lake basin: A case study in the Russian European North.
-*Permafrost and Periglacial Processes*.
-In press.
-
-### In review or revision
-
-* **Shiklomanov, A.N.**; Cowdery, E.M.; Bahn, M.; Burrascano, S.; Byun, C.; Craine, J.; Gonzalez-Melo, A.; Gutierrez, A.; Jansen, S.; Kraft, N.; Kramer, K.; Minden, V.; Niinemets, Ü.; Onoda, Y.; Sosinski, E.; Soudzilovskaia, N.; Dietze, M.C. 
-Scaling and breaking the leaf economic spectrum: Leaf trait relationships diverge across plant functional types. 
+* **Shiklomanov, A.N.**; Cowdery, E.M.; Bahn, M.; Byun, C.; Craine, J.; Gonzalez-Melo, A.; Jansen, S.; Kraft, N.; Kramer, K.; Minden, V.; Niinemets, Ü.; Onoda, Y.; Sosinski, E.; Soudzilovskaia, N.; Dietze, M.C. 
+Does the leaf economic spectrum hold within plant functional types? A Bayesian multivariate trait meta-analysis.
 *New Phytologist*.
-In revision.
+In review.
+
+* **Shiklomanov, A.N.**; Smallman, L.; Bradley, B.; Dahlin, K.; Fox, A.; Gough, C.; Hoffman, F.M.; Middleton, E.; Serbin, S.; Smith, W. The role of remote sensing in global change experiments (*Working title*). *Frontiers in Ecology & Evolution*. In prep.
+
+* Viskari, T.; **Shiklomanov, A.N.**; Dietze, M.C.; Serbin, S.P. The influence of caopy radiation parameter uncertainty on model projections of carbon and energy cycling. *Journal of Advances in Modeling Earth Systems*. In review.
+
+### In preparation
+
+* **Shiklomanov, A.N.**; Serbin, S.; Dietze, M.C. Leaf optical properties shed light on foliar trait variability at individual to global scales (*Working title*). In prep.
 
 * Weiskopf, S.R.; McCarthy, J.L.; McCarthy, K.P.; **Shiklomanov, A.N.**; Wibisono, H.T.; Pusparini, W. 
 The conservation value of forest fragments in the increasingly agrarian landscape of Sumatra.
 *Journal of Tropical Ecology*.
-In review.
-
-### In preparation
-
-* Viskari, T.; **Shiklomanov, A.N.**; Dietze, M.C.; Serbin, S.P. The influence of caopy radiation parameter uncertainty on model projections of carbon and energy cycling. *Journal of Advances in Modeling Earth Systems*. In prep.
-
-* **Shiklomanov, A.N.**; Smallman, L.; Bradley, B.; Dahlin, K.; Fox, A.; Gough, C.; Hoffman, F.M.; Middleton, E.; Serbin, S.; Smith, W. The role of remote sensing in global change experiments (*Working title*). *Frontiers in Ecology & Evolution*. In prep.
-
-* **Shiklomanov, A.N.**; Serbin, S.; Dietze, M.C. Leaf optical properties shed light on foliar trait variability at individual to global scales (*Working title*). In prep.
+In prep.
 
 ## Conference & Workshop Presentations
 
@@ -82,6 +80,10 @@ Invited oral presentation: "Leaf optical properties shed light on foliar trait v
 December 2016.
 
 ### Contributed
+
+* American Geophysical Union (AGU) Fall Meeting.
+Oral presentation: "Leaf optical properties shed light on foliar trait variability at individual to global scales".
+December 2017.
 
 * 39th New Phytologist Symposium -- Trait covariation: Structural and functional relationships in plant ecology.
 Poster presentation: "Leaf optical properties shed light on foliar trait variability at individual to global scales".
@@ -115,7 +117,7 @@ January 2015.
 ## Workshop and working group participation
 
 * USGS Biodiversity and Climate Modeling Workshop Series.
-June 2017.
+June 2017, March 2018.
 
 * Oak Ridge National Lab Data Distributed Active Archive Center (DAAC) User Working Group (UWG) meeting. 
 May 2017.
