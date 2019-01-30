@@ -5,7 +5,7 @@ permalink: /CV/
 ---
 
 ## Education
-Ph.D. Geography, Boston University (Exp. June 2018)
+Ph.D. Geography, Boston University (August 2019)
 
 Honors B.S. with Distinction, *Chemistry & Environmental Science*, University of Delaware (May 2014)
 
@@ -15,7 +15,8 @@ Honors B.S. with Distinction, *Chemistry & Environmental Science*, University of
 
 ## Professional Experience
 
-* Spring 2015 - Current: Research Fellow, Boston University Dept. of Earth & Environment, Ecological Forecasting Lab, Boston, MA
+* Fall 2019 - _Current_: Postdoctoral Research Associate, Joint Global Change Research Institute, Pacific Northwest National Laboratory, College Park, MD
+* Spring 2015 - Summer 2019: Research Fellow, Boston University Dept. of Earth & Environment, Ecological Forecasting Lab, Boston, MA
 * Fall 2012 - Spring 2014: Undergraduate Research Assistant, UD Dept. of Geography Ecohydrology Group, Newark, DE.
 * Fall 2012 - Spring 2014: Writing Fellow, UD Honors Program, Newark, DE.
 * Fall 2011 - Spring 2014: Math and Chemistry Tutor, UD Office of Academic Enrichment, Newark, DE.
@@ -26,6 +27,11 @@ Honors B.S. with Distinction, *Chemistry & Environmental Science*, University of
 ## Publications
 
 ### Published
+
+* 2019\. **Shiklomanov, A.N.**;  Bradley, B.; Dahlin, K.; Fox, A.; Gough, C.; Hoffman, F.M.; Middleton, E.; Serbin, S.; Smallman, L.; Smith, W.
+Enhancing global change experiments through integration of remote sensing techniques.
+*Frontiers in Ecology & Evolution*
+(_in press_)
 
 * 2017\. Kaverin, D.A.; Melnichuk, E.B.; Shiklomanov, N.I.; Kakunov, N.B.; Pastukhov, A.V.; **Shiklomanov, A.N.**
 Long-term changes in the ground thermal regime of an artificially-drained thaw lake basin: A case study in the Russian European North.
@@ -51,21 +57,15 @@ Environmental Pollution 193:45-53.
 
 * **Shiklomanov, A.N.**; Cowdery, E.M.; Bahn, M.; Byun, C.; Craine, J.; Gonzalez-Melo, A.; Jansen, S.; Kraft, N.; Kramer, K.; Minden, V.; Niinemets, Ü.; Onoda, Y.; Sosinski, E.; Soudzilovskaia, N.; Dietze, M.C. 
 Does the leaf economic spectrum hold within plant functional types? A Bayesian multivariate trait meta-analysis.
-*New Phytologist*.
-In review.
+*Ecology Letters*.
 
-* **Shiklomanov, A.N.**; Smallman, L.; Bradley, B.; Dahlin, K.; Fox, A.; Gough, C.; Hoffman, F.M.; Middleton, E.; Serbin, S.; Smith, W. The role of remote sensing in global change experiments (*Working title*). *Frontiers in Ecology & Evolution*. In prep.
-
-* Viskari, T.; **Shiklomanov, A.N.**; Dietze, M.C.; Serbin, S.P. The influence of caopy radiation parameter uncertainty on model projections of carbon and energy cycling. *Journal of Advances in Modeling Earth Systems*. In review.
-
-### In preparation
-
-* **Shiklomanov, A.N.**; Serbin, S.; Dietze, M.C. Leaf optical properties shed light on foliar trait variability at individual to global scales (*Working title*). In prep.
+* Viskari, T.; **Shiklomanov, A.N.**; Dietze, M.C.; Serbin, S.P.
+The influence of caopy radiation parameter uncertainty on model projections of carbon and energy cycling.
+*Journal of Advances in Modeling Earth Systems*.
 
 * Weiskopf, S.R.; McCarthy, J.L.; McCarthy, K.P.; **Shiklomanov, A.N.**; Wibisono, H.T.; Pusparini, W. 
 The conservation value of forest fragments in the increasingly agrarian landscape of Sumatra.
-*Journal of Tropical Ecology*.
-In prep.
+*Environmental Conservation*.
 
 ## Conference & Workshop Presentations
 
